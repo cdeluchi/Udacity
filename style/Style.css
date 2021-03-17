@@ -111,16 +111,32 @@ figcaption {
 }
 
 .flexbox-container {
-  display: flex;
+  display: grid;
+  width: 288px;
+  height: 662px;
   flex-direction: column;
   align-items: center;
   border: 1px solid #a664b9;
   margin: 10px 0 10px 0;
+  grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
 }
 
+.flexbox-container > div {
+    width: 266px;
+    height: 650px;
+    margin: 10px;
+    padding: 1em;
+}
+
+
 .flexbox-item {
-  width: 200px;
-  height: 200px;
+  width: 288px;
+  height: 662px;
   margin: 10px;
   border: 1px solid #333;
 }
+
+
+
