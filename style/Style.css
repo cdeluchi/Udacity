@@ -139,4 +139,7 @@ figcaption {
 }
 
 
-
+@media (max-width: 900px) {
+  .flexbox-container {
+    display: none;
+  }

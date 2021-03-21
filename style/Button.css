@@ -19,26 +19,21 @@
   position: relative;
   top: 1px;
 }
+
 .buttonmessage {
-  background-color: #a0c5aa;
+  background-color: #a491cf;
   border-radius: 15px;
-  border: 1px solid #6e9c73;
-  display: center;
+  border: 1px solid #a664b9;
+  display: inline-block;
   cursor: pointer;
-  margin-top: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
-  margin-left: auto;
   color: #ffffff;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 15px;
+  padding: 15px 20px;
   text-decoration: none;
-  text-shadow: 0px 1px 0px #6c7e6a;
+  text-shadow: 0px 1px 0px #b87ea4;
+  margin: 10px 0;
 }
 .buttonmessage:hover {
-  background-color: rgb(175, 153, 175);
-}
-.buttonmessage:active {
-  top: 1px;
-  position: relative;
+  background-color: rgb(214, 184, 194);
 }
