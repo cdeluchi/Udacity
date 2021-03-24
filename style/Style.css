@@ -85,7 +85,7 @@ article:last-child {
   background: rgb(174, 221, 233);
 }
 .Blocks {
-  display: grid;
+  display: flex;
   grid-template-columns: 30% 70%;
   grid-gap: 10px;
   padding: 10px;
@@ -101,7 +101,7 @@ article:last-child {
     padding-top: 24px;
     border-radius: 25px;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 .Blocks-post > div:nth-child(odd) {
@@ -111,15 +111,14 @@ article:last-child {
     display: grid;
     flex-direction: column;
     justify-content: center;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     margin-bottom: 16px;
     object-fit: cover;
     border-radius: 50%;
 }
 .profile-text{
   display: grid;
-
 }
 
 #inhale {
@@ -176,3 +175,35 @@ figcaption {
   .flexbox-container {
     display: none;
   }}
+
+  .flex-contact{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #a664b9;
+    background-color: rgb(186, 221, 229);
+    padding: 20px;
+    margin: 20px;
+  }
+
+.box-cont{
+  font-family: roboto;
+  width: 250px;
+  height: 150px;
+  border: 1px solid #a664b9;
+  margin-right: 5px;
+}
+
+#one{
+  order: 1;
+  text-align: center;
+}
+#two{
+  order: 2;
+  text-align: center;
+}
+#three{
+  order: 3;
+  text-align: center;
+}
